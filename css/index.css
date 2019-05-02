@@ -204,7 +204,7 @@ header {
   padding: 1em;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px dashed #212529;
+  border-bottom: 2px dashed #C0C0C0;
 }
 @media (max-width: 500px) {
   header {
@@ -230,8 +230,9 @@ header .logo a {
 .home .banner {
   margin-top: -1rem;
 }
-.home .banner div {
-  width: inherit;
+.home .banner .banner-content {
+  margin-top: 2rem;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
