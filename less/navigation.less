@@ -1,1 +1,15 @@
-// Navigation Styles here
+
+.nav-bar {
+    .flexbox-style(flex, flex-end);
+    @media @mobile {
+        .flexbox-style(flex, center);
+    }
+    .pad-margin (0.5rem);
+
+    a {
+        text-decoration: none;
+        color: @shark;
+        font-size: 1.2rem;
+        .pad-margin (0.5rem);
+    }
+}
