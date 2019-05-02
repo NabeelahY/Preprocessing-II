@@ -345,7 +345,7 @@ header .logo a {
   background-color: #17A2B8;
   color: #FFFFFF;
   width: 70%;
-  border-radius: 2rem;
+  border-radius: 2em;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn button {
